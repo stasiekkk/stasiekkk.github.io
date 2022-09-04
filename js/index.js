@@ -15,12 +15,16 @@ function darkmode() {
 document.addEventListener("DOMContentLoaded", function(event) {
     var options = {
         strings: ["Welcome"],
-        typeSpeed: 60,
+        typeSpeed: 70,
         backSpeed: 20,
         backDelay: 500,
         loop: false,
         autoInsertCss: true,
         smartBackspace: true
     }
-    var typed = new Typed("#welcome", options);
+    setTimeout(() => { var typed = new Typed("#welcome", options); }, 3000)
+});
+
+$( document ).ready(function() {
+    setTimeout(() => { $(".loader").fadeOut("slow"); }, 3000)
 });
