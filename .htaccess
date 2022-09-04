@@ -7,3 +7,13 @@ RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 
 Options -Indexes
+
+AuthUserFile /safe/.htpasswd
+
+AuthGroupFile /dev/null
+
+AuthName "Please Enter Password"
+
+AuthType Basic
+
+Require valid-user
