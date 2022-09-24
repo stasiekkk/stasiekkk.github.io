@@ -3,14 +3,22 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Stasiek</title>
-        <meta name="description" content="">
+        <title>Stasiek • Landing Page</title>
+        <meta name="theme-color" content="#2f3136" />
+        <meta name="description" content="About Me; My projects">
+        <link rel="icon" href="https://avatars.githubusercontent.com/u/53151845?v=4">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Stasiek • Landing Page">
+        <meta property="og:description" content="About Me; My projects">
+        <meta property="og:image" content="https://avatars.githubusercontent.com/u/53151845?v=4">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
         <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.js" integrity="sha512-ggJ7yQCnXifbDXFFfyNhegaNXkkPMP+0cxMDobX6pABvU4zrqD+NMXxrGoAK9iANboRjpR4ajwWHCCfJXJFpJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js" integrity="sha512-lJDBw/vKlGO8aIZB8/6CY4lV+EMAL3qzViHid6wXjH/uDrqUl+uvfCROHXAEL0T/bgdAQHSuE68vRlcFHUdrUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
         <script src="./js/index.js"></script>
     </head>
@@ -27,6 +35,13 @@
             <div class="menu">
                 <btn class="astext" onclick="console.log('dziala')">Gallery</btn>
                 <btn class="astext">About Me</btn>
+                <btn class="astext" id="myBtn">Contact Me</btn>
+            </div>
+        </div>
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h1>Hello, I am a modal!</h1>
             </div>
         </div>
         <button onclick="darkmode()" class="darkmodebtn">
@@ -37,3 +52,5 @@
         </footer>
     </body>
 </html>
+
+<!-- style="border-radius: 4px; padding: 20px; width: 10vw; height: 10vw; position: absolute; border-color: rgba(255,255,255,.75); background-color: rgba(211, 208, 208, 0.75); border: 0; bottom: 0; right: 0; margin-right: 3vw; margin-bottom: 3vw;" -->
