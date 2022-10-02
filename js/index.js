@@ -96,5 +96,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 $( document ).ready(function() {
-    setTimeout(() => { $(".loader").fadeOut("slow"); }, 3000)
+    setTimeout(() => { $(".loader").fadeOut("slow"); }, 0)
 });
